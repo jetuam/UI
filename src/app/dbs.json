@@ -1,0 +1,56 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "Saving Account",
+      "categoryname": [
+        {
+          "statuid": 1,
+          "name": "Saving Account"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Saving Account2",
+      "categoryname": [
+        {
+          "statuid": 2,
+          "name": "Saving Account2"
+        }
+      ]
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "cateid": 1,
+      "productName": "Orange Account"
+    },
+    {
+      "id": 2,
+      "cateid": 1,
+      "productName": "Mini Account"
+    },
+    {
+      "id": 3,
+      "cateid": 1,
+      "productName": "Orange deposits"
+    },
+    {
+      "id": 4,
+      "cateid": 2,
+      "productName": " Current Account"
+    },
+    {
+      "id": 5,
+      "cateid": 3,
+      "productName": " Payments & Colllections"
+    },
+    {
+      "id": 6,
+      "cateid": 4,
+      "productName": " Variable Mortgage"
+    }
+  ]
+}

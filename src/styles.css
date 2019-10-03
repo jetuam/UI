@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css';
+
+.navbar-inverse,.panel-default>.panel-heading {
+    background-color: #ff6200;
+    border-color: #ff6200;
+}
+.navbar-inverse{
+    margin-bottom: 0px;
+}
+.panel-default{
+    border-color: #ff6200;
+}
+.panel-default>.panel-heading{ 
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-inverse img {
+    position: relative;
+    top: -13px;
+    width: 65%;
+    left: 22px;
+}
+.ui-widget-content ul li a, .panel-body ul li a{
+color: #000 !important;
+}
+.ui-widget-content ul li a:hover,.panel-body ul li a:hover{
+    color: #ff6200 !important;
+    text-decoration: underline !important;
+  
+}
+.ui-widget-content ul li,.panel-body ul li
+{
+    padding: 7px 10px !important;
+     list-style: none; 
+}
+.h1-title{
+    text-align: center;
+    color: #ff6200;
+}
+.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a{
+    background-color: #ff6200 !important;
+    border: 1px solid #ff6200 !important;
+}
+i.pi.pi-angle-right{
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+    color: #ff6200;
+}
+ul{
+    padding: 0px;
+}
+a{
+    text-decoration: none !important;
+}
+.m-top20{
+    margin-top:20px;
+}
+.banner img{
+    width: 100%;
+}
+@media only screen and (max-width: 670px) {   
+    #myLinks{
+        display: none;
+    }
+    .icon{
+        display: block;
+        background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    } 
+    .navbar-inverse{
+        margin-bottom: 0px;
+    }  
+    .h1-title{
+        font-size: 20px;
+    }
+}
